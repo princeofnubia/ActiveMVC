@@ -100,11 +100,11 @@ So in the .htaccess file, after the line RewriteBase, i specified the base path 
 
 
 Recent Implementation 
-[23] = "Login fail. Invalid username or password";
-[24] = "ACCESS DENIED. Invalid Token";
-[25] = "ACCESS DENIED. No token provided";
-[26] = "Access Denied. Invalid User";
-[27] = "Access Denied. Token expire";
+[23] = "Login fail. Invalid username or password"
+[24] = "ACCESS DENIED. Invalid Token"
+[25] = "ACCESS DENIED. No token provided"
+[26] = "Access Denied. Invalid User"
+[27] = "Access Denied. Token expire"
 
 [31] = "No such email exist";
 [32] = "RESET SUCCESSFULL";
