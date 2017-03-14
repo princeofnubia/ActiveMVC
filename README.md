@@ -44,19 +44,6 @@ So in the .htaccess file, after the line RewriteBase, i specified the base path 
 
 3. API ENDPOINT ROUTE: URLs i specified for my endpoints
 
-	ORGANISATION ENDPOINT ROUTE
-	
-	organisation/createOrg 			accepted method=POST
-	organisation/getOrg/$id 		accepted method=GET    
-	organisation/deleteOrg/$id 		accepted method=DELETE
-	organisation/updateOrg 			accepted method=PUT
-	
-	OUTLET ENPOINT ROUTE
-	
-	organisation/createOutlet 			accepted method=POST
-	organisation/getOutlet/$id 			accepted method=GET    
-	organisation/deleteOutlet/$id 		accepted method=DELETE
-	organisation/updateOutlet 			accepted method=PUT
 	
 	TAX ENDPOINT ROUTE
 	
@@ -64,16 +51,13 @@ So in the .htaccess file, after the line RewriteBase, i specified the base path 
 	tax/getTax/$id 						accepted method=GET    
 	tax/deleteTax/$id 					accepted method=DELETE
 	tax/updateTax 						accepted method=PUT
-	
-	TAXINSTITUTION ROUTE
-	
-	taxInstitution/createTaxInstitution 		accepted method=POST
-	taxInstitution/getTaxInstitution/$id 		accepted method=GET    
-	taxInstitution/deleteTaxInstitution/$id 	accepted method=DELETE
-	taxInstitution/updateTaxInstitution 		accepted method=PUT
 
+	user/createUSer 						accepted method=POST
+	user/getUser/$id 						accepted method=GET    
+	user/deleteUSer/$id 					accepted method=DELETE
+	user/updateUser 						accepted method=PUT
 
- **for ensure that form are url-encoded by setting this in the form attribute 'enctype'=>'application/x-www-form-urlencoded' otherwise PUT request might give unexpected error. This is what i observed while testing it with Postman
+ **ensure that form are url-encoded by setting this in the form attribute 'enctype'=>'application/x-www-form-urlencoded' otherwise PUT request might give unexpected error. This is what i observed while testing it with Postman
  ** if you are having issues then you can make correction in the api_endpoint $this->request_verifier('PUT'); change it to POST and correct accordingly
  ** If you want to query all records say tax you can write tax/getTax/all or leave it blank tax/getTax and it will return all tax records**
  ** form names must match the model names otherwise there will be error.
