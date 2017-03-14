@@ -1,0 +1,19 @@
+{
+    "name": "abubakri/database",
+    "description": "database",
+    "type": "library",
+    "minimum-stability": "stable",
+    "autoload":{
+    	"classmap": ["api_core","api_model","api_endpoints"]
+    },
+    "require": {
+        "illuminate/database": "^5.3",
+        "doctrine/dbal": "^2.5",
+        "fzaninotto/faker": "^1.6",
+        "firebase/php-jwt": "^4.0",
+        "lcobucci/jwt": "^3.2",
+        "zetacomponents/mail": "^1.8",
+        "illuminate/mail": "^5.3",
+        "php-amqplib/php-amqplib": "^2.6"
+    }
+}
