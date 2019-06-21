@@ -129,5 +129,3 @@ Please note
 The documentation is not complete, you may add yours as well. I created it for a project that has similar patterns of requirements, while also considering the fact that it might change over time.
 Understanding of the API starts from the bootstrap file(api_innit.php) then API_CORE folder. the codes are quite straight forward.
 
-you can chat with me on 08104006343
-You might also experience some bugs...I humbly request you to correct accordingly and pull it to the repo.
