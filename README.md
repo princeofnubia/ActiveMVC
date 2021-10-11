@@ -1,4 +1,4 @@
-# MVC_API
+# ActiveMVC
 A backend MVC API written in PHPWRITTEN BY OYEWO ABUBAKRI OLAITAN
 
 
